@@ -8,6 +8,10 @@ This repository contains examples and notebooks for getting started with NVIDIA'
     - Launch the NVIDIA Nemotron Parse NIM container.
     - Query the API with an image (using Python and `requests`).
     - Visualize the detected bounding boxes and layout analysis results.
+- **nemotron_nano_12b_v2_vl_api_example.ipynb**: A Jupyter notebook that demonstrates how to:
+    - Launch the Nemotron Nano 12B v2 VL NIM container.
+    - Perform basic vision queries and text-only queries.
+    - Use reasoning capabilities (`/think`) and handle streaming responses.
 - **evaluate_nv_ingest.ipynb**: Notebook for evaluating NVIDIA Ingestion tools (if applicable).
 - **standalone_model_evaluation.ipynb**: Notebook for standalone model evaluation.
 
@@ -30,3 +34,4 @@ This repository contains examples and notebooks for getting started with NVIDIA'
 ## References
 
 - [NVIDIA Nemotron Parse API Documentation](https://docs.nvidia.com/nim/vision-language-models/latest/examples/nemotron-parse/api.html)
+- [NVIDIA Nemotron Nano 12B v2 VL API Documentation](https://docs.nvidia.com/nim/vision-language-models/latest/examples/nemotron-nano-12b-v2-vl/api.html)
