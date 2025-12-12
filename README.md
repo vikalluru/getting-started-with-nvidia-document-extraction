@@ -12,8 +12,10 @@ This repository contains examples and notebooks for getting started with NVIDIA'
     - Launch the Nemotron Nano 12B v2 VL NIM container.
     - Perform basic vision queries and text-only queries.
     - Use reasoning capabilities (`/think`) and handle streaming responses.
+- **nemoretriever_ocr_v1_example.ipynb**: A Jupyter notebook that demonstrates how to:
+    - Launch the Nemoretriever OCR v1 NIM container.
+    - Send base64-encoded images for text extraction.
 - **evaluate_nv_ingest.ipynb**: Notebook for evaluating NVIDIA Ingestion tools (if applicable).
-- **standalone_model_evaluation.ipynb**: Notebook for standalone model evaluation.
 
 ## Prerequisites
 
@@ -35,3 +37,4 @@ This repository contains examples and notebooks for getting started with NVIDIA'
 
 - [NVIDIA Nemotron Parse API Documentation](https://docs.nvidia.com/nim/vision-language-models/latest/examples/nemotron-parse/api.html)
 - [NVIDIA Nemotron Nano 12B v2 VL API Documentation](https://docs.nvidia.com/nim/vision-language-models/latest/examples/nemotron-nano-12b-v2-vl/api.html)
+- [NVIDIA Nemoretriever OCR v1 Documentation](https://build.nvidia.com/nvidia/nemoretriever-ocr-v1/deploy)
