@@ -15,13 +15,13 @@ This repository contains examples and notebooks for getting started with NVIDIA'
 - **nemoretriever_ocr_v1_example.ipynb**: A Jupyter notebook that demonstrates how to:
     - Launch the Nemoretriever OCR v1 NIM container.
     - Send base64-encoded images for text extraction.
-- **evaluate_nv_ingest.ipynb**: Notebook for evaluating NVIDIA Ingestion tools (if applicable).
+- **evaluate_nv_ingest.ipynb**: Notebook for evaluating NVIDIA Ingestion tools.
 
 ## Prerequisites
 
-- **NVIDIA GPU**: Access to an NVIDIA GPU is required to run the NIM containers.
+- **NVIDIA GPU**: Access to atleast 1 H100 or A100 NVIDIA GPU is required to run the jupyter notebooks.
 - **Docker**: For running the NIM containers.
-- **NVIDIA NGC Account**: To pull the NIM images.
+- **NVIDIA NGC Account and API Key**: To pull the NIM images.
 - **Python 3.8+**: For running the notebooks and scripts.
 
 ## Usage
